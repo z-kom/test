@@ -1,6 +1,5 @@
-﻿def f(x):
-    name = x
-    s = 'Hello' + ', ' + name + "!"
-    return s
+﻿def greet(name):
+    return f"Hello, {name}!"
 
-print(f("world"))
+
+print(greet("world"))
